@@ -1,3 +1,4 @@
+
 export const Think = [
   { key: 'overthinking', title: 'Thinking Too Much', emoji: '💭', tips: [ 'Write your thoughts down ✍️', 'Breathe slowly 💨', 'Take a break 🧘‍♂️' ] },
   { key: 'low-energy', title: 'Feeling Tired', emoji: '😴', tips: [ 'Drink water 💧', 'Take a walk 🚶', 'Stretch your body 🤸‍♀️' ] },
@@ -21,7 +22,6 @@ export const Think = [
   { key: 'regret', title: 'Feeling Regret', emoji: '😔', tips: [ 'Say “I forgive myself” 🙏', 'Learn and move forward ⏩', 'Everyone makes mistakes ⚠️' ] },
   { key: 'rejected', title: 'Feeling Rejected', emoji: '🚫', tips: [ 'Rejection is redirection 🛣️', 'You’re still valuable 💎', 'Do something you enjoy 🎮' ] },
   { key: 'confused', title: 'Feeling Confused', emoji: '🤔', tips: [ 'Write pros and cons 📝', 'Talk it out 🗣️', 'Pause and reflect 🪞' ] },
-  { key: 'unloved', title: 'Feeling Unloved', emoji: '💔', tips: [ 'Love starts from you 🤍', 'Spend time with yourself 🌸', 'Hug someone you trust 🤗' ] },
   { key: 'social-anxiety', title: 'Nervous with People', emoji: '🙈', tips: [ 'Practice in mirror 🪞', 'Start with small talk 💬', 'Don’t judge yourself 🧠' ] },
   { key: 'irritated', title: 'Feeling Irritated', emoji: '😤', tips: [ 'Listen to calm music 🎵', 'Take deep breaths 💨', 'Do something calming 🧘' ] },
   { key: 'hurt', title: 'Feeling Hurt', emoji: '💢', tips: [ 'Write how you feel ✍️', 'Rest your mind 💤', 'Talk to a friend 🧑‍🤝‍🧑' ] },
@@ -29,5 +29,4 @@ export const Think = [
   { key: 'guilt', title: 'Feeling Guilty', emoji: '😓', tips: [ 'Say sorry if needed 🧎‍♀️', 'Don’t stay stuck there ⛅', 'Forgive yourself 🙏' ] },
   { key: 'comparison', title: 'Comparing Yourself', emoji: '📉', tips: [ 'Social media is not real life 📵', 'Focus on your path 🌈', 'You are unique 🌟' ] },
   { key: 'mind-block', title: 'Can’t Think Clearly', emoji: '🚫🧠', tips: [ 'Go for a walk 🚶', 'Change your space 🛋️', 'Do one small task ✅' ] },
-  { key: 'need-love', title: 'Needing Love', emoji: '🤍', tips: [ 'Give love to others ❤️', 'Be gentle with yourself 🌸', 'Say kind words aloud 💬' ] },
 ];

@@ -1,42 +1,18 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './Login';
+import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
+import Login from './Login';
 import Mindcheck from './Mindcheck';
 
 function App() {
-  const [user, setUser] = useState(null); // 🔐 Login user state
+  const [user, setUser] = useState(null);
 
   return (
-    <Router>
-      <Routes>
-        {/* If user is logged in, show Home else go to Login */}
-        <Route
-          path="/"
-          element={
-            user ? (
-              <Home user={user} setUser={setUser} />
-            ) : (
-              <Login setUser={setUser} user={user} />
-            )
-          }
-        />
-
-        {/* Start button in Home navigates to /start */}
-        <Route
-          path="/start"
-          element={
-            user ? (
-              <Mindcheck />
-            ) : (
-              <Navigate to="/" />
-            )
-          }
-        />
-
-      
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Login setUser={setUser} user={user} />} />
+      <Route path="/home" element={<Home user={user} setUser={setUser} />} />
+      <Route path="/mindcheck" element={<Mindcheck />} />
+    </Routes>
   );
 }
 

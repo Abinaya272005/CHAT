@@ -1,9 +1,8 @@
-import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider } from "firebase/auth";
+import { initializeApp } from 'firebase/app';
+import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-
-    apiKey: "AIzaSyB8sxnbHPza_Z3SKi2l4dhseVJRDhm4YVY",
+    apiKey: "AIzaSyChxVnWvnWAwQuuoDDIWAUF_RfUcFh2d64",
     authDomain: "mindtalk-c1de9.firebaseapp.com",
     projectId: "mindtalk-c1de9",
     storageBucket: "mindtalk-c1de9.appspot.com",
@@ -15,6 +14,5 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
-
 
 export { app, auth, provider };
